@@ -31,3 +31,8 @@ target.write("\n")
 
 print("And finally, we close it.")
 target.close()
+
+print("This is the file")
+target = open(filename)
+print(target.read())
+target.close()
